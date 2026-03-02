@@ -1,0 +1,33 @@
+{
+    "name": "discord-bot",
+    "version": "1.0.0",
+    "description": "A full-featured Discord bot with moderation, XP, AI chat, tickets, music, economy, and more.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "deploy-commands": "node src/deploy-commands.js"
+    },
+    "keywords": [
+        "discord",
+        "bot"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "discord.js": "^14.11.0",
+        "dotenv": "^16.1.4",
+        "express": "^4.18.2",
+    "@discordjs/voice": "^0.16.0",
+        "pg": "^8.11.0",
+        "ytdl-core": "^4.11.0",
+        "@discordjs/opus": "^0.10.0",
+        "axios": "^1.5.0",
+        "node-fetch": "^3.3.2",
+        "moment": "^2.29.4",
+        "quick.db": "^9.1.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
